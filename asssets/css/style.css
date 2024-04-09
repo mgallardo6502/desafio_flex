@@ -1,0 +1,103 @@
+h1,
+h2,
+p {
+  font-family: raleway, Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+main .section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+main .section1 p {
+  color: white;
+  padding: 30px;
+  font-weight: lighter;
+  font-size: 16px;
+  max-width: 50%;
+}
+
+main .section1 img {
+  padding: 30px;
+  width: 399px;
+  height: 237px;
+}
+
+main .section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px 200px;
+  background-color: #1e1a13;
+}
+
+main .section2 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  width: 100%;
+  color: white;
+  opacity: 98%;
+  margin: 0;
+  padding: 50px;
+}
+
+main .section2 div {
+  color: white;
+  text-align: center;
+  margin: 0px 0px 50px 0;
+}
+
+main .section2 div p {
+  font-weight: lighter;
+  font-size: 25px;
+  margin: 10px;
+}
+
+main .section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 96%;
+}
+
+main .section3 img {
+  padding: 40px 0px 40px 0;
+  width: 399px;
+  height: 237px;
+}
+
+footer {
+  background-color: #1e1a13;
+  opacity: 94%;
+}
+
+footer p {
+  margin: 0px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
